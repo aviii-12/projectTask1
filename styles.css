@@ -1,0 +1,343 @@
+body {
+    background-color: #1D1E20;
+    margin: 0;
+}
+
+footer {
+    margin: 100px 0px auto;
+}
+
+footer div p{
+    text-align: center;
+}
+
+head {
+    background-color: #1D1E20;
+}
+
+header {
+    margin-bottom: 200px;
+    display: inline;
+}
+
+h3 {
+    color: #13F7D2;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+span{
+    display: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.anchors {
+    text-align: right;
+    margin-right: auto;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.anchortag {
+    color: #13F7D2;
+    margin-right: 40px;
+    margin-left: 60px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.contactImages {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footerImg {
+    border-radius: 1px;
+    height: 50px;
+    width: 50px;
+}
+
+.parent {
+    position: relative;
+    white-space: nowrap;
+    width: 45%;
+}
+
+#beautyImg {
+    position: relative;
+    margin-left: 30%;
+    width: 60%;
+    height: 100%;
+}
+
+#cross1 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 79%;
+}
+
+#cross2{
+    position: absolute;
+    z-index: 1;
+    margin-top: 61%;
+    margin-left: 57%;
+}
+
+#ellipse {
+    position: absolute;
+    margin-top: 43%;
+    margin-left: 27%;
+    height: 30%;
+    width: 18%;
+    z-index: 1;
+}
+
+#fb {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+#git {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+#gmail {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+#garvit {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 20px;
+}
+
+#insta {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+#logo {
+    text-align: left;
+}
+
+#logoimg {
+    position: absolute;
+    width: 115px;
+    height: 101px;
+    margin-left: 40px;
+}
+
+#middlesection {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+#para {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 45%;
+}
+
+#twitter {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+#ellipse:hover{
+    height: 30.5%;
+    width: 19%;
+    margin-top: 42%;
+    margin-left: 26%;
+}
+
+@media screen and (max-width: 720px){
+    h4{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    header{
+        margin: 0;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    span{
+        display: block;
+        cursor: pointer;
+        font-size: 32px;
+        color: #13F7D2;
+        margin-right: 8%;
+    }
+
+    ul li {
+        display: block;
+    }
+
+    #middlesection{
+        flex-direction: column;
+        margin-top: 25%;
+    }
+    #logoimg {
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        margin-left: 10%;
+    }
+
+    .parent {
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    .anchors{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    #garvit{
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 4px;
+        font-weight: 300;
+    }
+
+    #para{
+        width: 90%;
+        margin-top: 15%;
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    #fb{
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+    }
+    #insta{
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+    }
+    #git{
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+    }
+    #twitter{
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+    }
+    #gmail{
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+    }
+    footer div p{
+        font-size: 10px;
+    }
+    header{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+
+    #beautyImg {
+        position: relative;
+        width: 70%;
+        height: 99%;
+        margin-left: 0;
+    }
+
+    #cross1 {
+        position: absolute;
+        z-index: 1;
+        margin-left: 55%;
+        height: 8%;
+        width: 6%;
+    }
+
+    #cross2{
+        position: absolute;
+        z-index: 1;
+        margin-top: 72%;
+        margin-left: 34%;
+        height: 8%;
+        width: 6%;
+    }
+
+    #ellipse {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: -1%;
+        height: 30%;
+        width: 22%;
+        z-index: 1;
+    }
+
+    #ellipse:hover{
+        height: 33%;
+        width: 24%;
+        margin-top: 54%;
+        margin-left: -2%;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1020px) {
+    #cross2{
+        margin-top: 98%;
+    }
+    #ellipse{
+        margin-top: 70%;
+    }
+    #beautyImg{
+        height: 90%;
+    }
+    #ellipse:hover{
+        margin-top: 69%;
+    }
+
+}

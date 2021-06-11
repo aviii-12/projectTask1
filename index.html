@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>apk</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,500&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <div id="logo">
+        <img src="images/gh.png" alt="logo" id="logoimg">
+    </div>
+    <div class="anchors">
+        <span onclick="navMenu()">&#9776;</span>
+        <ul id="menu">
+            <li><a href="" class="anchortag">About</a></li>
+            <li><a href="" class="anchortag">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<section id="middlesection">
+    <div class="parent">
+        <img src="images/cross1.png" id="cross1">
+        <img src="images/cross1.png" id="cross2">
+        <img src="images/Ellipse.png" id="ellipse">
+        <img src="images/gravit.png" alt="beauty" id="beautyImg">
+    </div>
+    <div id="para">
+        <h3 id="garvit">GARVIT</h3>
+        <h4>I am a Web Designer and Garvit's fan. I just want to marry him.</h4>
+        <p>
+            Welcome to GeekHaven. We are the technical Society of IIIT Allahabad. Geekhaven is comprised of seven wings
+            , you can visit the site of those wings individually. Welcome to GeekHaven. We are the technical Society of
+            IIIT Allahabad. Geekhaven is comprised of seven wings , you can visit the site of those wings individually.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <div class="contactImages">
+        <a href="https://www.facebook.com/avinashkumar.pasvan"> <img src="images/fb.png" class="footerImg" id="fb"> </a>
+        <a href=""> <img src="images/twitter.png" class="footerImg" id="twitter"> </a>
+        <a href="https://github.com/pasvan"> <img src="images/git.png" class="footerImg" id="git"> </a>
+        <a href="https://www.instagram.com/avinashkumarpasvan_/"> <img src="images/insta.png" class="footerImg"
+                                                                       id="insta"> </a>
+        <a href="mailto:akpasvans@gmail.com"> <img src="images/gmail.png" class="footerImg" id="gmail"> </a>
+    </div>
+    <div>
+        <p>Made by Garvit Chittora &copy twentytwenty</p>
+    </div>
+</footer>
+    <script>
+        function navMenu(){
+            var x = document.getElementById("menu");
+            if(x.style.display == "block"){
+                x.style.display = "none";
+            } else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
