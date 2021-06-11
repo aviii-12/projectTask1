@@ -185,6 +185,22 @@ ul li{
     margin-left: 26%;
 }
 
+@media screen and (min-width: 720px) and (max-width: 1020px) {
+    #cross2{
+        margin-top: 98%;
+    }
+    #ellipse{
+        margin-top: 70%;
+    }
+    #beautyImg{
+        height: 90%;
+    }
+    #ellipse:hover{
+        margin-top: 69%;
+    }
+
+}
+
 @media screen and (max-width: 720px){
     h4{
         font-weight: 400;
@@ -324,20 +340,4 @@ ul li{
         margin-top: 54%;
         margin-left: -2%;
     }
-}
-
-@media screen and (min-width: 720px) and (max-width: 1020px) {
-    #cross2{
-        margin-top: 98%;
-    }
-    #ellipse{
-        margin-top: 70%;
-    }
-    #beautyImg{
-        height: 90%;
-    }
-    #ellipse:hover{
-        margin-top: 69%;
-    }
-
 }
