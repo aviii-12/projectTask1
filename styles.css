@@ -185,7 +185,7 @@ ul li{
     margin-left: 26%;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 500px){
     h4{
         font-weight: 400;
         font-size: 24px;
