@@ -80,13 +80,14 @@ ul li{
     position: relative;
     white-space: nowrap;
     width: 45%;
+    height: auto;
 }
 
 #beautyImg {
     position: relative;
     margin-left: 30%;
     width: 60%;
-    height: 100%;
+    height: auto;
 }
 
 #cross1 {
@@ -106,7 +107,7 @@ ul li{
     position: absolute;
     margin-top: 43%;
     margin-left: 27%;
-    height: 30%;
+    height: auto;
     width: 18%;
     z-index: 1;
 }
